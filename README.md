@@ -23,7 +23,7 @@ Features:
 - Automated installation of required provisioning tools
 - Configuration of Vultr firewall rules - ports 443,80,445,139
 - Supports customization of hostname/label
-- Security minded design choices
+- Designed with simplicy and quick functionality in mind
 
 
 Prereqs:
