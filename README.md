@@ -12,7 +12,7 @@ Features:
   - SMB config ephemeral via container input parameters (thanks to dpersons's excellent work ^ )
   - persistant volume for data ~/smb
 - Ephemeral Nginx container via docker (official nginx container)
-  - listens on 80/443
+  - listens on 80 (443 - WIP to come with auto-cert/dns provisioning)
   - persistant volume for data ~/html
   - 2 nginx instances - host serves as a reverse-proxy to the docker container (actual payload serving instance)
 - Terraform provisioning of Vultr VM and associated resources
@@ -21,7 +21,7 @@ Features:
     - smb and http services via containers
     - persistant samba & nginx storage
 - Automated installation of required provisioning tools
-- Configuration of Vultr firewall rules - ports 443,80,445,139
+- Configuration of Vultr firewall rules - ports 80,445,139
 - Supports customization of hostname/label
 - Designed with simplicy and quick functionality in mind
 
