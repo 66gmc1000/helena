@@ -7,9 +7,9 @@ Note: This script works on debian distros only at this point (planned feature)
 
 Features:
 - Ubuntu 16.04 Server base image
-- Ephemeral SMB container via docker (sourced currently - https:/github.com/.git)
+- Ephemeral SMB container via docker (sourced currently - https:/github.com/dperson/samba.git)
   - public read-only share, 2 private writeable shares - verified accessible with vanilla Win10 -1903 (fully configurable)
-  - SMB config ephemeral via container input parameters (thanks to citation's excellent work ^ )
+  - SMB config ephemeral via container input parameters (thanks to dpersons's excellent work ^ )
   - persistant volume for data ~/smb
 - Ephemeral Nginx container via docker (official nginx container)
   - listens on 80/443
